@@ -1,0 +1,9 @@
+# Some anime are either licensed by third-party platforms or outright blocked in Russia,
+# but they are inaccessible only if a Russian IP is detected (just like VK geo-restrictions)
+cdnlibs.org
+video1.cdnlibs.org
+
+# Google AI & Cloud Code endpoints
+aicode.googleapis.com
+daily-cloudcode-pa.googleapis.com
+cloudcode-pa.googleapis.com

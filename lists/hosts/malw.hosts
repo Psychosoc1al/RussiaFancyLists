@@ -1,0 +1,131 @@
+# Loopback
+127.0.0.1 localhost
+::1 localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# Crutch
+2.16.168.44 audio4-ak-spotify-com.akamaized.net
+23.36.163.34 audio-ak-spotify-com.akamaized.net
+23.48.23.145 heads-ak-spotify-com.akamaized.net
+57.144.244.192 static.cdninstagram.com
+162.159.135.232 updates.discord.com
+57.144.244.1 facebook.com www.facebook.com
+57.144.244.1 fb.com
+57.144.244.128 scontent.xx.fbcdn.net static.xx.fbcdn.net
+57.144.244.1 fbsbx.com
+140.82.114.3 github.com
+185.199.110.133 camo.githubassets.com
+185.199.110.154 github.githubassets.com
+146.75.22.132 avatars.githubusercontent.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com avatars4.githubusercontent.com avatars5.githubusercontent.com camo.githubusercontent.com gist.githubusercontent.com objects.githubusercontent.com private-user-images.githubusercontent.com raw.githubusercontent.com release-assets.githubusercontent.com
+157.240.205.174 instagram.com www.instagram.com
+57.144.244.192 api.instagram.com edge-chat.instagram.com graph.instagram.com i.instagram.com
+130.255.77.28 ntc.party
+172.67.139.108 r6s.com
+54.155.2.87 rainbow6.com
+65.8.158.112 tr.rbxcdn.com
+185.39.18.98 lib.rus.ec www.lib.rus.ec
+172.66.159.63 d.rutor.info rutor.info
+199.232.210.248 accounts.scdn.co av.scdn.co daily-mix.scdn.co encore.scdn.co i.scdn.co image-cdn-fa.scdn.co line-up.scdn.co lineup-images.scdn.co mosaic.scdn.co scdn.co seafoam.scdn.co www-growth.scdn.co www.scdn.co
+35.186.224.24 open.spotify.com
+162.159.141.124 audio-cf.spotifycdn.com audio4-fa-tls13.spotifycdn.com open-exp.spotifycdn.com
+149.154.167.220 t.me
+216.24.57.3 tapeop.dev www.tapeop.dev
+149.154.167.220 api.telegram.org core.telegram.org flora.web.telegram.org kws1-1.web.telegram.org kws1.web.telegram.org kws2-1.web.telegram.org kws2.web.telegram.org kws4-1.web.telegram.org kws4.web.telegram.org kws5-1.web.telegram.org kws5.web.telegram.org pluto-1.web.telegram.org pluto.web.telegram.org td.telegram.org telegram.dog telegram.me telegram.org telegram.space venus.web.telegram.org web.telegram.org zws1-1.web.telegram.org zws1.web.telegram.org zws2-1.web.telegram.org zws2.web.telegram.org zws4-1.web.telegram.org zws5-1.web.telegram.org zws5.web.telegram.org
+149.154.167.220 telesco.pe
+149.154.167.220 tg.dev
+2.23.89.244 ubiservices.cdn.ubi.com
+2.23.89.92 static3.cdn.ubi.com
+3.33.249.140 public-ws-ubiservices.ubi.com
+52.6.7.14 ubi.com
+99.83.188.134 public-ubiservices.ubi.com
+52.222.149.31 ubisoft.com
+
+# Geoblock
+217.60.179.6 api.anthropic.com console.anthropic.com
+48.102.233.174 api.anthropic.com console.anthropic.com
+217.60.179.6 web.archive.org
+48.102.233.174 web.archive.org
+48.102.233.174 ws.audioscrobbler.com
+217.60.179.6 edgeservices.bing.com rewards.bing.com sydney.bing.com
+48.102.233.174 rewards.bing.com sydney.bing.com
+217.60.179.6 game-assets.brawlstarsgame.com
+48.102.233.174 game-assets.brawlstarsgame.com
+217.60.179.6 content-management-files.canva.com static.canva.com www.canva.com
+48.102.233.174 canva.com content-management-files.canva.com static.canva.com www.canva.com
+217.60.179.6 ab.chatgpt.com chatgpt.com operator.chatgpt.com sora.chatgpt.com webrtc.chatgpt.com
+48.102.233.174 ab.chatgpt.com operator.chatgpt.com sora.chatgpt.com webrtc.chatgpt.com
+217.60.179.6 game-assets.clashofclans.com
+48.102.233.174 game-assets.clashofclans.com
+217.60.179.6 game-assets.clashroyaleapp.com
+48.102.233.174 game-assets.clashroyaleapp.com
+217.60.179.6 a.claude.ai claude.ai platform.claude.com
+48.102.233.174 a.claude.ai platform.claude.com
+217.60.179.6 api-free.deepl.com auth.deepl.com backend.deepl.com checkout.www.deepl.com clearance.deepl.com deepl.com dict.deepl.com errortracking.deepl.com gtm.deepl.com ita-free.app.deepl.com ita-free.www.deepl.com login-wall.deepl.com oneshot-free.www.deepl.com ott.deepl.com shield.deepl.com voice-proxy.www.deepl.com w.deepl.com write-free.www.deepl.com www.deepl.com www2.deepl.com
+48.102.233.174 api-free.deepl.com auth.deepl.com backend.deepl.com deepl.com dict.deepl.com errortracking.deepl.com experimentation-grpc.deepl.com experimentation.deepl.com gtm.deepl.com ita-free.app.deepl.com ita-free.www.deepl.com login-wall.deepl.com oneshot-free.www.deepl.com ott.deepl.com s.deepl.com shield.deepl.com voice-proxy.www.deepl.com w.deepl.com write-free.www.deepl.com www.deepl.com www2.deepl.com
+217.60.179.6 deezer.com payment.deezer.com www.deezer.com
+48.102.233.174 deezer.com payment.deezer.com www.deezer.com
+217.60.179.6 dyson.com www.dyson.com www.dyson.fr
+48.102.233.174 dyson.com www.dyson.com www.dyson.fr
+217.60.179.6 api.elevenlabs.io api.us.elevenlabs.io elevenlabs.io help.elevenlabs.io
+48.102.233.174 api.elevenlabs.io api.us.elevenlabs.io elevenlabs.io help.elevenlabs.io
+217.60.179.6 elevenreader.io
+48.102.233.174 elevenreader.io
+48.102.233.174 api.fitbit.com
+48.102.233.174 aistudio.google.com alkalimakersuite-pa.clients6.google.com fitbit.google.com flow.google.com gemini.google.com geminiweb-pa.clients6.google.com jules.google.com notebook.google.com notebooklm.google.com webchannel-alkalimakersuite-pa.clients6.google.com
+48.102.233.174 aisandbox-pa.googleapis.com assistant-s3-pa.googleapis.com fitbit-pa.googleapis.com fitbitvestibuleshim-pa.googleapis.com generativelanguage.googleapis.com proactivebackend-pa.googleapis.com robinfrontend-pa.googleapis.com
+217.60.179.6 assets.grok.com grok.com
+48.102.233.174 assets.grok.com grok.com
+48.102.233.174 hybrid-analysis.com
+217.60.179.6 api.imgur.com
+48.102.233.174 api.imgur.com
+217.60.179.6 account.jetbrains.com api.jetbrains.ai datalore.jetbrains.com download.jetbrains.com plugins.jetbrains.com
+48.102.233.174 account.jetbrains.com api.jetbrains.ai datalore.jetbrains.com download.jetbrains.com plugins.jetbrains.com
+48.102.233.174 labs.google
+48.102.233.174 last.fm
+217.60.179.6 client-api.linear.app constellation.linear.app linear.app public.linear.app s.linear.app static.linear.app uploads.linear.app
+48.102.233.174 constellation.linear.app linear.app public.linear.app s.linear.app static.linear.app uploads.linear.app
+217.60.179.6 copilot.microsoft.com
+48.102.233.174 copilot.microsoft.com
+217.60.179.6 app.notion.com calendar.notion.so www.notion.so
+48.102.233.174 app.notion.com calendar.notion.so notion.so www.notion.so
+217.60.179.6 developer.nvidia.com
+48.102.233.174 developer.nvidia.com
+217.60.179.6 cdn.oaistatic.com
+48.102.233.174 cdn.oaistatic.com oaistatic.com
+217.60.179.6 files.oaiusercontent.com sdmntpritalynorth.oaiusercontent.com sdmntprnortheu.oaiusercontent.com sdmntprpolandcentral.oaiusercontent.com sdmntprukwest.oaiusercontent.com
+48.102.233.174 files.oaiusercontent.com oaiusercontent.com sdmntpritalynorth.oaiusercontent.com sdmntprnortheu.oaiusercontent.com sdmntprpolandcentral.oaiusercontent.com sdmntprukwest.oaiusercontent.com
+217.60.179.6 geolocation.onetrust.com
+48.102.233.174 geolocation.onetrust.com
+217.60.179.6 android.chat.openai.com api.openai.com auth.openai.com auth0.openai.com cdn.platform.openai.com developers.openai.com ios.chat.openai.com platform.openai.com tcr9i.chat.openai.com videos.openai.com
+48.102.233.174 android.chat.openai.com api.openai.com auth.openai.com auth0.openai.com cdn.platform.openai.com developers.openai.com ios.chat.openai.com openai.com platform.openai.com tcr9i.chat.openai.com videos.openai.com
+217.60.179.6 builds.parsec.app
+48.102.233.174 builds.parsec.app
+217.60.179.6 patreon.com www.patreon.com
+48.102.233.174 patreon.com www.patreon.com
+48.102.233.174 patreonusercontent.com
+48.102.233.174 o.pki.goog
+217.60.179.6 accounts.spotify.com api-partner.spotify.com api.spotify.com gew1-dealer.spotify.com gew1-spclient.spotify.com login5.spotify.com spclient.wg.spotify.com www.spotify.com
+48.102.233.174 account.spotify.com accounts.spotify.com aet.spotify.com analytics.spotify.com ap-gae2.spotify.com ap-gew1.spotify.com ap-gew4.spotify.com ap-guc3.spotify.com ap-gue1.spotify.com ap-sto3.spotify.com ap.spotify.com api-partner.spotify.com api.spotify.com apresolve.spotify.com auth.spotify.com connect.spotify.com content.spotify.com crashdump.spotify.com dealer-wg.spotify.com dealer.spotify.com desktop.spotify.com exp.wg.spotify.com gae2-spclient.spotify.com gce.spotify.com gew1-dealer.g2.spotify.com gew1-dealer.spotify.com gew1-spclient.spotify.com gnl-spclient.spotify.com guc3-dealer.g2.spotify.com guc3-spclient.spotify.com gue1-dealer.g2.spotify.com gue1-spclient.spotify.com image-upload.spotify.com log.spotify.com logger.spotify.com login.app.spotify.com login.spotify.com login5.spotify.com metrics.spotify.com pixel-static.spotify.com pixel.spotify.com spclient.spotify.com spclient.wg.spotify.com spotify.com web-partner.spotify.com www.spotify.com xpui.app.spotify.com
+48.102.233.174 audio-fa-tls13.spotifycdn.com concerts.spotifycdn.com heads-fa-tls13.spotifycdn.com heads4-fa-tls13.spotifycdn.com image-cdn-fa.spotifycdn.com mrkt.spotifycdn.com pickasso.spotifycdn.com podz-content.spotifycdn.com seed-mix-image.spotifycdn.com spotifycdn.com thisis-images.spotifycdn.com wap.spotifycdn.com web-sdk-assets.spotifycdn.com
+217.60.179.6 api-global.squareup.com api.squareup.com
+48.102.233.174 strava.com
+217.60.179.6 accounts.supercell.com cdn.id.supercell.com clashofclans.inbox.supercell.com security.id.supercell.com store.supercell.com
+48.102.233.174 accounts.supercell.com cdn.id.supercell.com security.id.supercell.com store.supercell.com
+217.60.179.6 api.tidal.com auth.tidal.com dd.tidal.com images.tidal.com link.tidal.com listen.tidal.com login.tidal.com resources.tidal.com
+48.102.233.174 api.tidal.com auth.tidal.com dd.tidal.com fsu.fa.tidal.com images.tidal.com link.tidal.com listen.tidal.com login.tidal.com resources.tidal.com tidal.com
+217.60.179.6 www.tiktok.com
+48.102.233.174 www.tiktok.com
+217.60.179.6 static-assets-1.truthsocial.com truthsocial.com
+217.60.179.6 usher.ttvnw.net
+48.102.233.174 usher.ttvnw.net
+217.60.179.6 gql.twitch.tv
+48.102.233.174 gql.twitch.tv
+217.60.179.6 upsx.weather.com weather.com
+48.102.233.174 upsx.weather.com weather.com
+48.102.233.174 aitestkitchen.withgoogle.com stitch.withgoogle.com
+217.60.179.6 accounts.x.ai
+48.102.233.174 accounts.x.ai console.x.ai x.ai
+217.60.179.6 xgpuweb.gssv-play-prod.xboxlive.com xgpuwebf2p.gssv-play-prod.xboxlive.com xsts.auth.xboxlive.com
+48.102.233.174 xgpuweb.gssv-play-prod.xboxlive.com xgpuwebf2p.gssv-play-prod.xboxlive.com xsts.auth.xboxlive.com
+48.102.233.174 xdaforums.com

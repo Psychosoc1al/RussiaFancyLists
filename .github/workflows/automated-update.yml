@@ -1,0 +1,70 @@
+name: Automated List Update
+
+on:
+  schedule:
+    # Run every 3 hours (including 21:00 UTC)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-lists:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+      with:
+        # Allow pushing back to the repository
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 1
+
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v5
+      with:
+        enable-cache: true
+
+    - name: Run update script
+      run: |
+        uv run russiafancylists
+
+    - name: Verify hosts lists sync
+      run: |
+        uv run python scripts/verify_hosts_sync.py
+
+    - name: Check for changes in lists directory
+      id: check_changes
+      run: |
+        if git diff --quiet .; then
+          echo "No changes in lists directory"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected in lists directory"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+        git add -A
+        git commit -m "chore: automated list update $(date +'%Y-%m-%d')
+
+        Updated blocklists with latest restricted domains and IPs.
+        Changes detected in lists/ directory."
+
+        git push
+
+    - name: Log completion
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        echo "✅ Lists updated and pushed successfully"
+
+    - name: Log no changes
+      if: steps.check_changes.outputs.has_changes == 'false'
+      run: |
+        echo "ℹ️ No changes detected in lists, skipping commit"
