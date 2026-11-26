@@ -133,8 +133,8 @@ Generated artifacts are organized as follows:
         • <a href="https://raw.githubusercontent.com/Noktomezo/RussiaFancyLists/main/lists/geoblock/full-sld.lst"><code>full-sld.lst</code></a>
       </td>
       <td>
-        • <!-- SIZE:lists/geoblock/full.lst -->22.2 KB<!-- SIZE_END --><br>
-        • <!-- SIZE:lists/geoblock/full-sld.lst -->13.3 KB<!-- SIZE_END -->
+        • <!-- SIZE:lists/geoblock/full.lst -->34.5 KB<!-- SIZE_END --><br>
+        • <!-- SIZE:lists/geoblock/full-sld.lst -->14.5 KB<!-- SIZE_END -->
       </td>
     </tr>
     <tr>
@@ -335,8 +335,8 @@ Direct hosts file mappings and Smart DNS rules for bypassing geoblocks and local
         • <!-- SIZE:lists/hosts/smart-no-crutch.hosts -->22.8 KB<!-- SIZE_END -->
       </td>
       <td>
-        • 475/1517<br>
-        • 475/1517
+        • 475/2194<br>
+        • 475/2194
       </td>
     </tr>
     <tr>
@@ -350,8 +350,8 @@ Direct hosts file mappings and Smart DNS rules for bypassing geoblocks and local
         • <!-- SIZE:lists/hosts/combined-no-crutch.hosts -->39.5 KB<!-- SIZE_END -->
       </td>
       <td>
-        • 1514/1517<br>
-        • 1514/1517
+        • 1514/2194<br>
+        • 1514/2194
       </td>
     </tr>
     <tr>
@@ -361,12 +361,12 @@ Direct hosts file mappings and Smart DNS rules for bypassing geoblocks and local
         • <a href="https://raw.githubusercontent.com/Psychosoc1al/RussiaFancyLists/bezmezhau/lists/hosts/bezmezhau-no-crutch.hosts"><code>bezmezhau-no-crutch.hosts</code></a>
       </td>
       <td>
-        • <!-- SIZE:lists/hosts/bezmezhau.hosts -->12.5 KB<!-- SIZE_END --><br>
-        • <!-- SIZE:lists/hosts/bezmezhau-no-crutch.hosts -->10.1 KB<!-- SIZE_END -->
+        • <!-- SIZE:lists/hosts/bezmezhau.hosts -->20.4 KB<!-- SIZE_END --><br>
+        • <!-- SIZE:lists/hosts/bezmezhau-no-crutch.hosts -->18.0 KB<!-- SIZE_END -->
       </td>
       <td>
-        • 437/1517<br>
-        • 437/1517
+        • 863/2194<br>
+        • 863/2194
       </td>
     </tr>
     <tr>
@@ -393,8 +393,8 @@ Direct hosts file mappings and Smart DNS rules for bypassing geoblocks and local
         • <!-- SIZE:lists/hosts/smart-no-crutch.adguard.txt -->48.6 KB<!-- SIZE_END -->
       </td>
       <td>
-        • 475/1517<br>
-        • 475/1517
+        • 475/2194<br>
+        • 475/2194
       </td>
     </tr>
     <tr>
@@ -408,8 +408,8 @@ Direct hosts file mappings and Smart DNS rules for bypassing geoblocks and local
         • <!-- SIZE:lists/hosts/combined-no-crutch.adguard.txt -->78.6 KB<!-- SIZE_END -->
       </td>
       <td>
-        • 1514/1517<br>
-        • 1514/1517
+        • 1514/2194<br>
+        • 1514/2194
       </td>
     </tr>
     <tr>
@@ -419,12 +419,12 @@ Direct hosts file mappings and Smart DNS rules for bypassing geoblocks and local
         • <a href="https://raw.githubusercontent.com/Psychosoc1al/RussiaFancyLists/bezmezhau/lists/hosts/bezmezhau-no-crutch.adguard.txt"><code>bezmezhau-no-crutch.adguard.txt</code></a>
       </td>
       <td>
-        • <!-- SIZE:lists/hosts/bezmezhau.adguard.txt -->29.1 KB<!-- SIZE_END --><br>
-        • <!-- SIZE:lists/hosts/bezmezhau-no-crutch.adguard.txt -->23.6 KB<!-- SIZE_END -->
+        • <!-- SIZE:lists/hosts/bezmezhau.adguard.txt -->51.7 KB<!-- SIZE_END --><br>
+        • <!-- SIZE:lists/hosts/bezmezhau-no-crutch.adguard.txt -->46.2 KB<!-- SIZE_END -->
       </td>
       <td>
-        • 437/1517<br>
-        • 437/1517
+        • 863/2194<br>
+        • 863/2194
       </td>
     </tr>
     <tr>
